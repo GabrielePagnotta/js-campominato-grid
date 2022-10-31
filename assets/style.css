@@ -1,16 +1,33 @@
-.image{
+.image {
     width: 100px;
-    height:100px;
+    height: 100px;
 }
 
-.quadrato{
-    width:calc(100% / 10);
+.quadrato {
+    width: calc(100% / 10);
     height: 100px;
     aspect-ratio: 1/1;
-    border:1px solid black;
+    border: 1px solid black;
 }
 
-.background{
+
+.quadrato_int {
+    width: calc(100% / 9);
+    height: 100px;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+.quadrato_dif {
+    width: calc(100% / 7);
+    height: 100px;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+
+
+.background {
     background-color: aquamarine;
     border: 1px solid red;
 }

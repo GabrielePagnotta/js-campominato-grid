@@ -88,7 +88,7 @@ btn.addEventListener('click', function () {
 
     }
 
-})
+}, {once : true});
 
 
 
